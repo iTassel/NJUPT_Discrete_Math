@@ -1,0 +1,7 @@
+version: '2.2'
+services:
+  exp1:
+    build: .
+    ports:
+      - "11001:11001"
+    restart: always
